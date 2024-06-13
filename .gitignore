@@ -1,0 +1,5 @@
+venv
+venv_bot
+venv_api
+.env
+__pycache__
