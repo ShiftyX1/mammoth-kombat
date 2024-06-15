@@ -1,2 +1,2 @@
 fastapi
-toprtoise-orm
+tortoise-orm

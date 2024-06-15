@@ -3,3 +3,4 @@ venv_bot
 venv_api
 .env
 __pycache__
+venv_front
