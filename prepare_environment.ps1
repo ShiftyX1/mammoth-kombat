@@ -1,4 +1,3 @@
-# Определение путей к подкаталогам
 $envPaths = @("api", "bot", "front")
 
 foreach ($envPath in $envPaths) {
