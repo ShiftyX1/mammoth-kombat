@@ -3,11 +3,11 @@ from fastapi import HTTPException, Depends, APIRouter
 from fastapi.security.http import HTTPBase, HTTPAuthorizationCredentials
 from pydantic import BaseModel
 
-from ..config import telegramcfg  # Telegram Bot configuration
+from config import telegramcfg  # Telegram Bot configuration
 
 auth_router = APIRouter()
 
-telegram_authentication_schema = HTTPBase()
+telegram_authentication_schema = HTTPBase(scheme="http://")
 
 
 class TelegramUser(BaseModel):

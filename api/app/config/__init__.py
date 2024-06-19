@@ -32,7 +32,7 @@ class Config:
         },
         "apps": {
             "models": {
-                "models": ["aerich.models"],
+                "models": ["models.user"],
                 "default_connection": "default",
             }
         },

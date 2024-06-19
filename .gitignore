@@ -4,3 +4,4 @@ venv_api
 .env
 __pycache__
 venv_front
+/node_modules
