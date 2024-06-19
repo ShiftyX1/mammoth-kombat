@@ -7,7 +7,7 @@ foreach ($envPath in $envPaths) {
 
     python -m venv "$envPath\venv_$envPath"
 
-    & "$envPath\venv\Scripts\Activate.ps1"
+    & "$envPath\venv_$envPath\Scripts\Activate.ps1"
 
     $requirementsPath = "$envPath\requirements.txt"
     if (Test-Path $requirementsPath) {
